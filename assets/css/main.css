@@ -74,16 +74,22 @@ header {
 }
 
 .header__nav {
-  padding: 2rem 1.5rem;
-  margin: auto;
+  padding: 1% 1% 1% 1%;
   display: flex;
   align-items: center;
+  
 }
 
 .header__logo {
   flex: 2;
 }
-
+#imm{
+  margin-top: 10%;
+  padding-top: 10%;
+  padding-left: 10%;
+  margin-left: 10%;
+  width: 400px
+}
 .header__logo img {
   max-width: 12rem;
 }
