@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet The Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .team-member {
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .role {
+            font-weight: bold;
+            color: #555;
+        }
+        .grid-4 {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        .professor {
+            grid-column: 5 / 6;
+            justify-self: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meet The Team</h1>
+        <p>Behind The Creative Process Of Building Your Brand</p>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="avatar1.jpg" alt="Avery Davis">
+                <h3>Avery Davis</h3>
+                <p class="role">Marketing Expert</p>
+            </div>
+            <div class="team-member">
+                <img src="avatar2.jpg" alt="Cahaya Dewi">
+                <h3>Cahaya Dewi</h3>
+                <p class="role">Advertising Head</p>
+            </div>
+            <div class="team-member">
+                <img src="avatar3.jpg" alt="Olivia Wilson">
+                <h3>Olivia Wilson</h3>
+                <p class="role">Content Creator</p>
+            </div>
+            <div class="team-member">
+                <img src="avatar4.jpg" alt="Sacha Dubois">
+                <h3>Sacha Dubois</h3>
+                <p class="role">Graphic Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="avatar5.jpg" alt="Chiaki Sato">
+                <h3>Chiaki Sato</h3>
+                <p class="role">Campaign Lead</p>
+            </div>
+        </div>
+        <div class="team-grid grid-4">
+            <div class="team-member">
+                <img src="avatar6.jpg" alt="Juliana Silva">
+                <h3>Juliana Silva</h3>
+                <p class="role">Influencer</p>
+            </div>
+            <div class="team-member">
+                <img src="avatar7.jpg" alt="Member 7">
+                <h3>Member 7</h3>
+                <p class="role">Role 7</p>
+            </div>
+            <div class="team-member">
+                <img src="avatar8.jpg" alt="Member 8">
+                <h3>Member 8</h3>
+                <p class="role">Role 8</p>
+            </div>
+            <div class="team-member">
+                <img src="avatar9.jpg" alt="Member 9">
+                <h3>Member 9</h3>
+                <p class="role">Role 9</p>
+            </div>
+        </div>
+        <div class="team-grid">
+            <div class="team-member professor">
+                <img src="assets/img/mme hejer.jpg" alt="Professor">
+                <h3>Professor</h3>
+                <p class="role">Mentor & Guide</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -100,6 +100,3 @@ export default function testimonials() {
         }
     }
 };
-
-
-/*End Testimonial Section */
