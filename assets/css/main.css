@@ -84,11 +84,9 @@ header {
   flex: 2;
 }
 #imm{
-  margin-top: 10%;
-  padding-top: 10%;
-  padding-left: 10%;
-  margin-left: 10%;
-  width: 400px
+  margin-top: 40%;
+  padding-top: 50%;
+  width: 200px
 }
 .header__logo img {
   max-width: 12rem;
